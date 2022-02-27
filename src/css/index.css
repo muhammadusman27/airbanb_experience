@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+.navbar {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.navbar_image {
+    max-width: 100px;
+}
+section {
+    padding: 20px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+.hero_img {
+    max-width: 400px;
+    align-self: center;
+}
+.hero_header {
+    margin-bottom: 16px;
+}
+.hero_text {
+    margin-top: 0;
+}
+/* ---------------------------------- */
+.star_div {
+    display: flex;
+    align-items: center;
+}
+.rating {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+}
+.rating_point {
+    color: #222222;
+}
+.rating_count {
+    color: #918E9B;
+}
+.bold_price {
+    font-weight: 700;
+}
+.star_icon {
+    height: 14px;
+}
+.card_container {
+    display: flex;
+}
+.card_image {
+    width: 200px;
+}
+.single_card {
+    padding: 15px;
+}
