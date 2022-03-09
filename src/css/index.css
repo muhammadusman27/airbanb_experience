@@ -7,6 +7,7 @@ body {
 }
 .navbar {
     height: 70px;
+    width: 100% !important;
     display: flex;
     padding: 20px 36px;
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
@@ -35,6 +36,7 @@ section {
 .star_div {
     display: flex;
     align-items: center;
+    padding-top: 5px;
 }
 .rating {
     font-family: Poppins;
@@ -57,10 +59,17 @@ section {
 }
 .card_container {
     display: flex;
+    overflow-x: scroll;
 }
 .card_image {
-    width: 200px;
+    width: 175px;
 }
 .single_card {
-    padding: 15px;
+    width: 175px;
+    margin: 10px;
+    padding: 5px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+
 }
